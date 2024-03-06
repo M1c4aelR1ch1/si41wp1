@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link dan Table</title>
+
+    <style>
+        h1 { 
+            background-color: black;
+            color: white;
+        }
+
+        table, th, td {
+            border: 1px solid brown;
+            color :chartreuse;
+            background-color:black;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .heading1{
+            color: yellow;
+            background-color: blue;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        #heading2{
+            color: blue;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 class = "heading1">Pratikum Hyperlink</h1>
+    <a href="https://www.detik.com/">Portal Berita Detik</a>
+    <!-- target = "-blank membuat web terbuka di new tab sedangkan tanpa itu di tab yang sama"-->
+    <a href="https://www.kompas.com/" target = "_blank">Portal Kompas</a>
+    <a href="belajarImage.html" target="_blank">Pratikum Image</a>
+
+    <h1 id = "heading2">Pratikum Tabel</h1>
+    <p class = "heading1">Menggunakan rowspan</p>
+    <table class = "table1">
+        <tr>
+            <th>Nama</th>
+            <th>Alamat</th>
+            <th>Pekerjaan</th>
+            <th>Kota</th>
+        </tr>
+
+        <tr>
+            <td>Sujayadi</td>
+            <td>Jl. Kalimantan Timur 34</td>
+            <td>Wiraswasta</td>
+            <td>Palembang</td>
+        </tr>
+
+        <tr>
+            <td>Krins</td>
+            <td>Jalan Sukabangun 45</td>
+            <td>Konsultan TI</td>
+            <td>Palembang</td>
+        </tr>
+    </table>
+
+    <h1 class = "heading1">Pratikum Tabel Kedua</h1>
+    <table class ="table2">
+        <tr>
+            <th>Nama</th>
+            <th colspan="2">Alamat</th>
+            <th>Kota</th>
+        </tr>
+
+        <tr>
+            <td>Sujayadi</td>
+            <td>Rumah : Jl. Kalimantan Timur 34</td>
+            <td>Pekerjaan : Wiraswasta</td>
+            <td>Palembang</td>
+        </tr>
+        
+        <tr>
+            <td>Dewi</td>
+            <td>Rumah : Jl. Talang Anyar 23</td>
+            <td>Pekerjaan : Operator</td>
+            <td>Palembang</td>
+        </tr>
+        
+    </table>
+
+    <h1>Pratikum Tabel Ketiga</h1>
+    <table>
+        <tr>
+            <th>Nama Lengkap</th>
+            <td>Budiiii</td>
+        </tr>
+
+        <tr>
+            <th rowspan="3">Alamat</th>
+            <td>Rumah : Jl.Kalimantan Timur 510</td>
+        </tr>
+
+        <tr> 
+            <td>Pekerjaan : Presiden</td>
+        </tr>
+
+        <tr>
+            <td>Kota : New York</td>
+        </tr>
+    </table>
+</body>
+</html>
