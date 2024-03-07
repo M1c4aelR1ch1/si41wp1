@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Method Post disarankan untuk pengiriman data pribadi karena tidak akan kelihaan di url-->
+    <!--Method get membuat data yang diisi di form terlihat di url-->
+    <form method="post" action="belajarImage.html">
+        Nama depan : <br />
+        <input type = "test" name="namadepan" value = "Budi" size ="40"/>
+        <br />Nama belakang: <br />
+        <input type = "test" name="namabelakang" value = "Raharjo"/>
+        <br />Password : <br />
+        <input type = "password" maxlength="6"/>
+        <br /> Jenis Kelamin <br>
+        <input type = "radio" value = "Male" name = "gender" checked> Laki-laki
+        <!-- Fitur checked membuat suatu opsi menjadi default-->
+        <input type = "radio" value = "Female" name = "gender"> Perempuan
+        <br><br>
+        <input type="submit" value="Kirim">
+        <input type="reset" value ="Batal">
+    </form>
+
+</body>
+</html>
